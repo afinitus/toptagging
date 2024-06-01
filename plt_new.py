@@ -110,17 +110,17 @@ if __name__ == "__main__":
         nll_top = {}
 
 
-labels_top,likelihoods_top = evaluate_classifier(
-                config['NUM_FEAT'],
-                '../checkpoints_{}/checkpoint'.format(model_name+ '_class_gluon_tagging'),
-                flags.data_folder,
-            )
-fpr, tpr, _ = roc_curve(labels_top,likelihoods_top, pos_label=1)
-print("Classifier AUC: {}".format(auc(fpr, tpr)))
-plt.plot(tpr,fpr,label="Supervised Classifier",
-                     color='gray',
-                     linestyle=utils.line_style['top_tagging_ll'])
-plt.yscale('log')
-plt.legend(frameon=False,fontsize=14)
-fig.savefig('{}/{}.pdf'.format(flags.plot_folder,"supervised_ROC"))
+    labels_top,likelihoods_top = evaluate_classifier(
+                    config['NUM_FEAT'],
+                    '../checkpoints_{}/checkpoint'.format(model_name+ '_class_gluon_tagging'),
+                    flags.data_folder,
+                )
+    fpr, tpr, _ = roc_curve(labels_top,likelihoods_top, pos_label=1)
+    print("Classifier AUC: {}".format(auc(fpr, tpr)))
+    plt.plot(tpr,fpr,label="Supervised Classifier",
+                         color='gray',
+                         linestyle=utils.line_style['top_tagging_ll'])
+    plt.yscale('log')
+    plt.legend(frameon=False,fontsize=14)
+    plt.savefig('roc_curve')
 

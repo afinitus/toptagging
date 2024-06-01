@@ -1,0 +1,10 @@
+{
+    'NUM_FEAT':3,
+    'NUM_JET':2,
+    'BATCH':128,
+    'LR':0.0003,
+    'MAXEPOCH':200,
+    'EARLYSTOP':20,
+    'EMBED':64,
+    'MODEL_NAME':'GSGM'
+}
