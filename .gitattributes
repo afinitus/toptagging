@@ -9,3 +9,15 @@ vincode/top_ll.h5 filter=lfs diff=lfs merge=lfs -text
 vincode/Data/gluon_test.h5 filter=lfs diff=lfs merge=lfs -text
 vincode/Data/gluon_val.h5 filter=lfs diff=lfs merge=lfs -text
 vincode/gluon_ll.h5 filter=lfs diff=lfs merge=lfs -text
+generated_gluon/gluon_tagging_data3.h5 filter=lfs diff=lfs merge=lfs -text
+generated_gluon/gluon_tagging_data5.h5 filter=lfs diff=lfs merge=lfs -text
+generated_gluon/gluon_tagging_data2.h5 filter=lfs diff=lfs merge=lfs -text
+generated_gluon/gluon_tagging_data4.h5 filter=lfs diff=lfs merge=lfs -text
+generated_top/top_tagging_data2.h5 filter=lfs diff=lfs merge=lfs -text
+generated_top/top_tagging_data3.h5 filter=lfs diff=lfs merge=lfs -text
+generated_top/top_tagging_data4.h5 filter=lfs diff=lfs merge=lfs -text
+generated_top/top_tagging_data5.h5 filter=lfs diff=lfs merge=lfs -text
+generated_top/top_tagging_data.h5 filter=lfs diff=lfs merge=lfs -text
+generated_gluon/gluon_tagging_data6.h5 filter=lfs diff=lfs merge=lfs -text
+generated_top/top_tagging_data6.h5 filter=lfs diff=lfs merge=lfs -text
+generated_gluon/gluon_tagging_data.h5 filter=lfs diff=lfs merge=lfs -text
