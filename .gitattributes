@@ -1,1 +1,11 @@
 *.h5 filter=lfs diff=lfs merge=lfs -text
+vincode/Data/gluon_train.h5 filter=lfs diff=lfs merge=lfs -text
+vincode/Data/top_train.h5 filter=lfs diff=lfs merge=lfs -text
+vincode/Data/gluon.h5 filter=lfs diff=lfs merge=lfs -text
+vincode/Data/top.h5 filter=lfs diff=lfs merge=lfs -text
+vincode/Data/top_test.h5 filter=lfs diff=lfs merge=lfs -text
+vincode/Data/top_val.h5 filter=lfs diff=lfs merge=lfs -text
+vincode/top_ll.h5 filter=lfs diff=lfs merge=lfs -text
+vincode/Data/gluon_test.h5 filter=lfs diff=lfs merge=lfs -text
+vincode/Data/gluon_val.h5 filter=lfs diff=lfs merge=lfs -text
+vincode/gluon_ll.h5 filter=lfs diff=lfs merge=lfs -text
